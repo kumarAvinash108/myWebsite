@@ -752,4 +752,8 @@ z-index: 99;
       line-height: 5.3vh;
         
     }
+    #con{
+        height: 70vh;
+        overflow-y: scroll;
+    }
 }
