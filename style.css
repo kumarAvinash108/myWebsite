@@ -754,6 +754,7 @@ z-index: 99;
     }
     #con{
         height: 70vh;
+        width: 100%;
         overflow-y: scroll;
     }
 }
