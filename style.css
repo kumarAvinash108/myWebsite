@@ -742,4 +742,14 @@ z-index: 99;
         justify-content: space-between;
       flex-direction: column;  
     }
+    #page5{
+        height: 90vh;
+       
+    }
+    #pg1{
+    
+      font-size: 5vh;
+      line-height: 5.3vh;
+        
+    }
 }
