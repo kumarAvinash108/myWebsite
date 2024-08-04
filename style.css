@@ -81,7 +81,7 @@ body{
     transform: translate(-50%,-50%);
     display: none;
     transition: all linear 0.2s;  
-     z-index: 2;
+    z-index: 2;
 
 }
 .intro h1{
@@ -676,8 +676,58 @@ z-index: 99;
     z-index: -3;
     
 }
+#main2 {
+    display: none;
 
+}
+#main2 .intro1{
+    display: none;
+}
 @media only screen and (max-width: 600px){
+    .ldprt{
+        z-index: 9999;
+        background-color: #2b1c1c;
+    }
+    #main{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    #main2{
+        display: block;
+        height: 100vh;
+        width: 100%;
+        /* background-color: blue; */
+      
+        position:relative
+
+    }
+    #main2 .intro1{
+        display: block;
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translate(-50%,-50%);
+    }
+    img{
+        height: 25vh;
+        width: 25vh;
+        object-fit: cover;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 1;
+      
+       
+    }
+    .intro1 h1{
+        font-size: 18vw;
+        line-height: 19vw;
+        font-weight: 400;
+    }
+   
     .cursor{
         display: none ;
        }
